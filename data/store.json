@@ -1,0 +1,403 @@
+{
+  "customers": [
+    {
+      "id": "CUST-001",
+      "name": "Alisher Toshev",
+      "email": "alisher@example.com",
+      "phone": "+998 90 123 45 67",
+      "address": "Tashkent, Mirzo Ulugbek",
+      "createdAt": "2025-01-15T00:00:00.000Z"
+    },
+    {
+      "id": "CUST-002",
+      "name": "Gulnoza Karimova",
+      "email": "gulnoza@example.com",
+      "phone": "+998 91 234 56 78",
+      "address": "Tashkent, Yakkasaray",
+      "createdAt": "2025-01-20T00:00:00.000Z"
+    },
+    {
+      "id": "CUST-003",
+      "name": "Davron Abdullayev",
+      "email": "davron@example.com",
+      "phone": "+998 93 345 67 89",
+      "address": "Tashkent, Shayhontohur",
+      "createdAt": "2025-02-01T00:00:00.000Z"
+    },
+    {
+      "id": "CUST-004",
+      "name": "Yasmin Azimova",
+      "email": "yasmin@example.com",
+      "phone": "+998 94 456 78 90",
+      "address": "Tashkent, Almazar",
+      "createdAt": "2025-02-10T00:00:00.000Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-1773872737304-O8EOK8",
+      "customerId": "CUST-004",
+      "customerName": "Yasmin Azimova",
+      "customerEmail": "yasmin@example.com",
+      "customerPhone": "+998 94 456 78 90",
+      "status": "delivered",
+      "products": [
+        {
+          "id": "P-1773872737304-WU1V9R",
+          "name": "sdfgh",
+          "quantity": 1,
+          "price": 0,
+          "category": "",
+          "status": "bor"
+        }
+      ],
+      "totalAmount": 0,
+      "paymentType": "card",
+      "pickupDate": "2026-03-20T00:00:00.000Z",
+      "assignedTo": "Feruza Husainova",
+      "createdAt": "2026-03-18T22:25:37.304Z",
+      "updatedAt": "2026-03-18T22:25:49.608Z"
+    },
+    {
+      "id": "ORD-1773868059979-D7MCBL",
+      "customerId": "CUST-001",
+      "customerName": "Alisher Toshev",
+      "customerEmail": "alisher@example.com",
+      "customerPhone": "+998 90 123 45 67",
+      "status": "new",
+      "products": [
+        {
+          "id": "P-1773868059979-BYFZFL",
+          "name": "",
+          "quantity": 1,
+          "price": 0,
+          "category": "",
+          "status": "bor"
+        }
+      ],
+      "totalAmount": 0,
+      "paymentType": "cash",
+      "pickupDate": "2026-03-19T00:00:00.000Z",
+      "createdAt": "2026-03-18T21:07:39.979Z",
+      "updatedAt": "2026-03-19T04:16:38.873Z"
+    },
+    {
+      "id": "ORD-1773867765377-HV4TJ1",
+      "customerId": "CUST-001",
+      "customerName": "Alisher Toshev",
+      "customerEmail": "alisher@example.com",
+      "customerPhone": "+998 90 123 45 67",
+      "status": "new",
+      "products": [
+        {
+          "id": "P-1773867765377-4AAOGZ",
+          "name": "olma",
+          "quantity": 1,
+          "price": 0,
+          "category": "",
+          "status": "bor"
+        }
+      ],
+      "totalAmount": 0,
+      "paymentType": "cash",
+      "pickupDate": "2026-03-19T00:00:00.000Z",
+      "assignedTo": "Feruza Husainova",
+      "createdAt": "2026-03-18T21:02:45.377Z",
+      "updatedAt": "2026-03-18T22:24:53.463Z"
+    },
+    {
+      "id": "ORD-1773866123480-12S2IA",
+      "customerId": "CUST-001",
+      "customerName": "Alisher Toshev",
+      "customerEmail": "alisher@example.com",
+      "customerPhone": "+998 90 123 45 67",
+      "status": "processing",
+      "products": [
+        {
+          "id": "P-1773866123480-TTUDB5",
+          "name": "Olma",
+          "quantity": 130,
+          "price": 1231,
+          "category": "",
+          "status": "bor"
+        },
+        {
+          "id": "P-1773866123480-T5M0YO",
+          "name": "Gilos",
+          "quantity": 123,
+          "price": 123,
+          "category": "",
+          "status": "bor"
+        }
+      ],
+      "totalAmount": 175159,
+      "paymentType": "card",
+      "pickupDate": "2026-03-19T00:00:00.000Z",
+      "assignedTo": "Feruza Husainova",
+      "createdAt": "2026-03-18T20:35:23.480Z",
+      "updatedAt": "2026-03-19T04:22:49.334Z"
+    },
+    {
+      "id": "ORD-001",
+      "customerId": "CUST-001",
+      "customerName": "Alisher Toshev",
+      "customerEmail": "alisher@example.com",
+      "customerPhone": "+998 90 123 45 67",
+      "status": "processing",
+      "products": [
+        {
+          "id": "P1",
+          "name": "iPhone 15 Pro",
+          "quantity": 1,
+          "price": 1299,
+          "category": "Electronics",
+          "status": "kutilmoqda"
+        },
+        {
+          "id": "P2",
+          "name": "USB-C Cable",
+          "quantity": 2,
+          "price": 29,
+          "category": "Accessories",
+          "status": "bor"
+        }
+      ],
+      "totalAmount": 1357,
+      "paymentType": "card",
+      "pickupDate": "2025-03-20T00:00:00.000Z",
+      "assignedTo": "Sardor Qodirov",
+      "createdAt": "2025-03-15T00:00:00.000Z",
+      "updatedAt": "2026-03-19T04:55:23.478Z"
+    },
+    {
+      "id": "ORD-002",
+      "customerId": "CUST-002",
+      "customerName": "Gulnoza Karimova",
+      "customerEmail": "gulnoza@example.com",
+      "customerPhone": "+998 91 234 56 78",
+      "status": "processing",
+      "products": [
+        {
+          "id": "P3",
+          "name": "Samsung Galaxy Watch",
+          "quantity": 1,
+          "price": 399,
+          "category": "Electronics",
+          "status": "bor"
+        },
+        {
+          "id": "P4",
+          "name": "Screen Protector",
+          "quantity": 3,
+          "price": 15,
+          "category": "Accessories",
+          "status": "bor"
+        }
+      ],
+      "totalAmount": 444,
+      "paymentType": "cash",
+      "pickupDate": "2025-03-21T00:00:00.000Z",
+      "assignedTo": "Feruza Husainova",
+      "createdAt": "2025-03-16T00:00:00.000Z",
+      "updatedAt": "2026-03-19T04:35:37.128Z"
+    },
+    {
+      "id": "ORD-003",
+      "customerId": "CUST-003",
+      "customerName": "Davron Abdullayev",
+      "customerEmail": "davron@example.com",
+      "customerPhone": "+998 93 345 67 89",
+      "status": "shipped",
+      "products": [
+        {
+          "id": "P5",
+          "name": "MacBook Pro 16",
+          "quantity": 1,
+          "price": 2499,
+          "category": "Computers",
+          "status": "bor"
+        },
+        {
+          "id": "P6",
+          "name": "Magic Mouse",
+          "quantity": 1,
+          "price": 99,
+          "category": "Accessories",
+          "status": "bor"
+        }
+      ],
+      "totalAmount": 2598,
+      "paymentType": "transfer",
+      "pickupDate": "2025-03-22T00:00:00.000Z",
+      "assignedTo": "Miroj Yuldashev",
+      "createdAt": "2025-03-14T00:00:00.000Z",
+      "updatedAt": "2026-03-18T22:25:06.368Z"
+    },
+    {
+      "id": "ORD-004",
+      "customerId": "CUST-004",
+      "customerName": "Yasmin Azimova",
+      "customerEmail": "yasmin@example.com",
+      "customerPhone": "+998 94 456 78 90",
+      "status": "new",
+      "products": [
+        {
+          "id": "P7",
+          "name": "iPad Air",
+          "quantity": 1,
+          "price": 799,
+          "category": "Tablets",
+          "status": "kutilmoqda"
+        },
+        {
+          "id": "P8",
+          "name": "Apple Pencil",
+          "quantity": 1,
+          "price": 129,
+          "category": "Accessories",
+          "status": "bor"
+        },
+        {
+          "id": "P9",
+          "name": "Protective Case",
+          "quantity": 1,
+          "price": 49,
+          "category": "Accessories",
+          "status": "yo'q"
+        }
+      ],
+      "totalAmount": 977,
+      "paymentType": "online",
+      "pickupDate": "2025-03-19T00:00:00.000Z",
+      "assignedTo": "Dilya Mirqosimova",
+      "createdAt": "2025-03-13T00:00:00.000Z",
+      "updatedAt": "2026-03-19T05:03:14.612Z"
+    },
+    {
+      "id": "ORD-005",
+      "customerId": "CUST-001",
+      "customerName": "Alisher Toshev",
+      "customerEmail": "alisher@example.com",
+      "customerPhone": "+998 90 123 45 67",
+      "status": "shipped",
+      "products": [
+        {
+          "id": "P10",
+          "name": "AirPods Pro",
+          "quantity": 2,
+          "price": 249,
+          "category": "Audio",
+          "status": "bor"
+        },
+        {
+          "id": "P11",
+          "name": "Charging Case",
+          "quantity": 1,
+          "price": 49,
+          "category": "Accessories",
+          "status": "bor"
+        }
+      ],
+      "totalAmount": 547,
+      "paymentType": "card",
+      "pickupDate": "2025-03-18T00:00:00.000Z",
+      "assignedTo": "Sardor Qodirov",
+      "createdAt": "2025-03-12T00:00:00.000Z",
+      "updatedAt": "2025-03-15T00:00:00.000Z"
+    },
+    {
+      "id": "ORD-006",
+      "customerId": "CUST-002",
+      "customerName": "Gulnoza Karimova",
+      "customerEmail": "gulnoza@example.com",
+      "customerPhone": "+998 91 234 56 78",
+      "status": "shipped",
+      "products": [
+        {
+          "id": "P12",
+          "name": "Sony WH-1000XM5",
+          "quantity": 1,
+          "price": 399,
+          "category": "Audio",
+          "status": "bor"
+        },
+        {
+          "id": "P13",
+          "name": "Headphone Stand",
+          "quantity": 1,
+          "price": 29,
+          "category": "Accessories",
+          "status": "bor"
+        }
+      ],
+      "totalAmount": 428,
+      "paymentType": "cash",
+      "pickupDate": "2025-03-17T00:00:00.000Z",
+      "assignedTo": "Feruza Husainova",
+      "createdAt": "2025-03-11T00:00:00.000Z",
+      "updatedAt": "2025-03-14T00:00:00.000Z"
+    },
+    {
+      "id": "ORD-007",
+      "customerId": "CUST-003",
+      "customerName": "Davron Abdullayev",
+      "customerEmail": "davron@example.com",
+      "customerPhone": "+998 93 345 67 89",
+      "status": "delivered",
+      "products": [
+        {
+          "id": "P14",
+          "name": "Google Pixel 8 Pro",
+          "quantity": 1,
+          "price": 999,
+          "category": "Electronics",
+          "status": "bor"
+        },
+        {
+          "id": "P15",
+          "name": "Phone Case Bundle",
+          "quantity": 1,
+          "price": 69,
+          "category": "Accessories",
+          "status": "bor"
+        }
+      ],
+      "totalAmount": 1068,
+      "paymentType": "transfer",
+      "pickupDate": "2025-03-16T00:00:00.000Z",
+      "assignedTo": "Miroj Yuldashev",
+      "createdAt": "2025-03-10T00:00:00.000Z",
+      "updatedAt": "2026-03-19T05:04:26.698Z"
+    },
+    {
+      "id": "ORD-008",
+      "customerId": "CUST-004",
+      "customerName": "Yasmin Azimova",
+      "customerEmail": "yasmin@example.com",
+      "customerPhone": "+998 94 456 78 90",
+      "status": "delivered",
+      "products": [
+        {
+          "id": "P16",
+          "name": "Dell XPS 13",
+          "quantity": 1,
+          "price": 1299,
+          "category": "Computers",
+          "status": "bor"
+        }
+      ],
+      "totalAmount": 1299,
+      "paymentType": "online",
+      "pickupDate": "2025-03-15T00:00:00.000Z",
+      "assignedTo": "Dilya Mirqosimova",
+      "createdAt": "2025-03-09T00:00:00.000Z",
+      "updatedAt": "2025-03-12T00:00:00.000Z"
+    }
+  ],
+  "assignees": [
+    "Sardor Qodirov",
+    "Feruza Husainova",
+    "Miroj Yuldashev",
+    "Dilya Mirqosimova"
+  ]
+}
