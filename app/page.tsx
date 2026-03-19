@@ -2,8 +2,8 @@ import { KanbanBoard } from '@/components/KanbanBoard';
 import { Navigation } from '@/components/Navigation';
 
 export const metadata = {
-  title: 'Buyurtmalarni Boshqarish - Korzinka.uz',
-  description: 'Kanban board uchun buyurtmalarni boshqarish tizimi',
+  title: 'Karzinka Bussines',
+  description: 'Karzinka Bussines',
 };
 
 export default function Home() {
