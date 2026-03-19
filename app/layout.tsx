@@ -4,9 +4,20 @@ import { Toaster } from '@/components/ui/toaster'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Karzinka App',
-  description: '',
-  generator: '',
+
+  icons: {
+    icon: [
+      {
+        url: '/icon.png',
+        media: '(prefers-color-scheme: dark)',
+      },
+      {
+        url: '/icon.png',
+        media: '(prefers-color-scheme: dark)',
+      },
+    ],
+    apple: '/apple-icon.png',
+  },
 }
 
 export default function RootLayout({
